@@ -55,7 +55,7 @@ loginBtn.addEventListener('click',function(e)
     }
     else
     {
-        alert("Usuario/Contraseña son necesarios);
+        alert("Usuario/Contraseña son necesarios)");
     }
 });
 

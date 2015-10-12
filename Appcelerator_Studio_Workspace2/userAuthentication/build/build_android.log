@@ -1,5 +1,5 @@
 
-10/11/2015, 2:20:51 PM
+10/11/2015, 8:30:15 PM
 
 Operating System
   Name                        = Linux Mint 17.2 Rafaela
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = android
 
 Command
-  /usr/local/bin/node /home/fatone/.appcelerator/install/5.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform android --log-level trace --sdk 5.0.1.GA --project-dir /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication --target emulator --android-sdk /home/fatone/Android --device-id Fat --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 44744 --plugin-paths /home/fatone/.appcelerator/install/5.0.2/package/node_modules --config-file /tmp/build-1444591246933.json --no-banner
+  /usr/local/bin/node /home/fatone/.appcelerator/install/5.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform android --log-level trace --sdk 5.0.1.GA --project-dir /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication --target emulator --android-sdk /home/fatone/Android --device-id Fat --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 44744 --plugin-paths /home/fatone/.appcelerator/install/5.0.2/package/node_modules --config-file /tmp/build-1444613408902.json --no-banner
 
 [WARN]   Unable to locate an /usr/lib/libGL.so.
 [WARN]   Without the libGL library, the Android Emulator may not work properly.
@@ -46,9 +46,7 @@ Command
 [DEBUG]  Classname: Userauthentication
 [INFO]   Debugging disabled
 [INFO]   Profiler disabled
-[INFO]   Forcing rebuild: JavaScript encryption flag changed
-[INFO]     Was: true
-[INFO]     Now: false
+[INFO]   Forcing rebuild: /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/build-manifest.json does not exist
 [INFO]   Launching emulator: Fat
 [TRACE]  Starting emulator: Fat
 [TRACE]  Checking if emulator Fat is running...
@@ -71,7 +69,7 @@ Command
 [INFO]   SD card not required, skipping mount check
 [INFO]   Emulator ready!
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 1261.261 sec ago
+[TRACE]  optimizing build, last build was 130.229 sec ago
 [DEBUG]  Copying /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/Resources
 [WARN]   Overwriting file /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/bin/assets/Resources/KS_nav_ui.png
 [DEBUG]  Symlinking /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/Resources/KS_nav_ui.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/bin/assets/Resources/KS_nav_ui.png
@@ -123,39 +121,39 @@ Command
 [DEBUG]  Unknown namespace ui.ios, skipping
 [INFO]   Writing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/bin/assets/app.json
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-analytics.res.zip
-[DEBUG]  Copying /tmp/115911-1858-15mtnw9/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Copying /tmp/115911-27804-ahwdjd/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-android.res.zip
-[DEBUG]  Merging /tmp/115911-1858-dzhil6/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Merging /tmp/115911-27804-1f8y3rj/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-app.res.zip
-[DEBUG]  Merging /tmp/115911-1858-1xsk94o/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Merging /tmp/115911-27804-os78fe/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-filesystem.res.zip
-[DEBUG]  Merging /tmp/115911-1858-1px403r/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Merging /tmp/115911-27804-hvqx/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-media.res.zip
-[DEBUG]  Merging /tmp/115911-1858-qb3j32/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Merging /tmp/115911-27804-s86142/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-locale.res.zip
-[DEBUG]  Merging /tmp/115911-1858-97ngk9/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Merging /tmp/115911-27804-1o17n5u/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-network.res.zip
-[DEBUG]  Merging /tmp/115911-1858-m74ph2/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Merging /tmp/115911-27804-101zlfs/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-xml.res.zip
-[DEBUG]  Merging /tmp/115911-1858-t65j4e/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Merging /tmp/115911-27804-h2eph2/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-utils.res.zip
-[DEBUG]  Merging /tmp/115911-1858-13kkibd/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Merging /tmp/115911-27804-87siax/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-geolocation.res.zip
-[DEBUG]  Merging /tmp/115911-1858-16efjgf/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Merging /tmp/115911-27804-vm97ij/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-accelerometer.res.zip
-[DEBUG]  Merging /tmp/115911-1858-1d041yv/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Merging /tmp/115911-27804-1eru4hc/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-contacts.res.zip
-[DEBUG]  Merging /tmp/115911-1858-1e8p2uz/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Merging /tmp/115911-27804-1u1xc3w/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-map.res.zip
-[DEBUG]  Merging /tmp/115911-1858-1t0k8ya/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Merging /tmp/115911-27804-15u6qse/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-gesture.res.zip
-[DEBUG]  Merging /tmp/115911-1858-ldmxer/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Merging /tmp/115911-27804-ilo6v/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-calendar.res.zip
-[DEBUG]  Merging /tmp/115911-1858-19ed9xi/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Merging /tmp/115911-27804-8bu6q1/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-platform.res.zip
-[DEBUG]  Merging /tmp/115911-1858-1pgnxfh/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Merging /tmp/115911-27804-1yjh1bi/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-database.res.zip
-[DEBUG]  Merging /tmp/115911-1858-w40br5/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
+[DEBUG]  Merging /tmp/115911-27804-sqwfne/res/values/strings.xml => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [DEBUG]  Removing old file: /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/.classpath
 [DEBUG]  Removing old file: /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/.gitignore
 [DEBUG]  Removing old file: /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/.project
@@ -173,7 +171,7 @@ Command
 [INFO]   Generating i18n files
 [DEBUG]  Merging en strings => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/strings.xml
 [INFO]   Generating /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res/values/theme.xml
-[INFO]   Packaging application: /home/fatone/Android/build-tools/23.0.1/aapt "package" "-f" "-m" "-J" "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/gen" "-M" "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/AndroidManifest.xml" "-A" "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/bin/assets" "-S" "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res" "-I" "/home/fatone/Android/platforms/android-23/android.jar" "-F" "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/bin/app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat" "-S" "/tmp/115911-1858-70neg1/res" "-S" "/tmp/115911-1858-zj8a0j/res"
+[INFO]   Packaging application: /home/fatone/Android/build-tools/23.0.1/aapt "package" "-f" "-m" "-J" "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/gen" "-M" "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/AndroidManifest.xml" "-A" "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/bin/assets" "-S" "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/res" "-I" "/home/fatone/Android/platforms/android-23/android.jar" "-F" "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/bin/app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat" "-S" "/tmp/115911-27804-ccy0zc/res" "-S" "/tmp/115911-27804-idkjhk/res"
 [INFO]   Building Java source files: /usr/lib/jvm/java-7-openjdk-amd64/bin/javac "-J-Xmx256M" "-encoding" "utf8" "-bootclasspath" "/home/fatone/Android/platforms/android-23/android.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/kroll-v8.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-analytics.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/aps-analytics.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-android.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/jaxen-1.1.1.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/ti-commons-codec-1.3.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/kroll-common.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/titanium.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-app.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-ui.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/nineoldandroids-appc-2.4.0.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-filesystem.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-media.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-appcompat.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/android-support-v4.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/android-support-v7-appcompat.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-locale.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-network.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-xml.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-utils.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-geolocation.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-accelerometer.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-contacts.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-map.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-gesture.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-calendar.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-platform.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-database.jar:/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/lib/titanium-verify.jar:R.class:AssetCryptImpl.class:UserauthenticationActivity.class:UserauthenticationAppInfo.class:UserauthenticationApplication.class" "-d" "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/bin/classes" "-proc:none" "-target" "1.6" "-source" "1.6" "@/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/java-sources.txt"
 [INFO]   Running dexer: /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=/home/fatone/Android/platform-tools" "-jar" "/home/fatone/Android/build-tools/23.0.1/lib/dx.jar" "--dex" "--output=/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/bin/classes.dex" "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/bin/classes" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/lib/titanium-verify.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/kroll-v8.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-analytics.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/aps-analytics.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-android.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/jaxen-1.1.1.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/ti-commons-codec-1.3.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/kroll-common.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/titanium.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-app.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-ui.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/nineoldandroids-appc-2.4.0.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-filesystem.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-media.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-appcompat.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/android-support-v4.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/android-support-v7-appcompat.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-locale.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-network.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-xml.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-utils.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-geolocation.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-accelerometer.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-contacts.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-map.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-gesture.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-calendar.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-platform.jar" "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/android/modules/titanium-database.jar"
 [INFO]   Creating unsigned apk
@@ -546,8 +544,3 @@ Command
 [TRACE]  Checking if package manager service is started
 [TRACE]  Package manager has started
 [TRACE]  Executing: /home/fatone/Android/platform-tools/adb -s emulator-5554 install -r /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/bin/userAuthentication.apk
-[INFO]   App successfully installed
-[INFO]   Starting app: com.user_authentication/.UserauthenticationActivity
-[DEBUG]  Trying to start the app...
-[INFO]   Application pid: 2461
-[INFO]   Project built successfully in 1m 3s 576ms
