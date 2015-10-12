@@ -1,0 +1,1 @@
+/home/fatone/Appcelerator_Studio_Workspace2/conexionBD/Resources/datos/datos.js

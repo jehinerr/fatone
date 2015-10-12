@@ -1,0 +1,7 @@
+"/home/fatone/Appcelerator_Studio_Workspace2/conexionBD/build/android/gen/android/support/v7/appcompat/R.java"
+"/home/fatone/Appcelerator_Studio_Workspace2/conexionBD/build/android/gen/com/conexion_bd/AssetCryptImpl.java"
+"/home/fatone/Appcelerator_Studio_Workspace2/conexionBD/build/android/gen/com/conexion_bd/ConexionbdActivity.java"
+"/home/fatone/Appcelerator_Studio_Workspace2/conexionBD/build/android/gen/com/conexion_bd/ConexionbdAppInfo.java"
+"/home/fatone/Appcelerator_Studio_Workspace2/conexionBD/build/android/gen/com/conexion_bd/ConexionbdApplication.java"
+"/home/fatone/Appcelerator_Studio_Workspace2/conexionBD/build/android/gen/com/conexion_bd/R.java"
+"/home/fatone/Appcelerator_Studio_Workspace2/conexionBD/build/android/gen/ti/modules/titanium/ui/R.java"

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.conexion_bd</id>
+    <name>conexionBD</name>
+    <version>1.0</version>
+    <publisher>fatone</publisher>
+    <url>http://conexionbd.com</url>
+    <description/>
+    <copyright>2015 by fatone</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>a7a19f9a-25fd-4d92-9000-1441fa602fa4</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="mobileweb">true</target>
+        <target device="windows">false</target>
+    </deployment-targets>
+    <sdk-version>5.0.1.GA</sdk-version>
+    <property name="appc-app-id" type="string">561a7b36d2f02dcf2cdcdd2f</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">CUwkml9lV9VvKztkEMGI6n4lO2fgHMc5</property>
+    <property name="acs-oauth-key-development" type="string">Z2Xmdx8hWhWvcF4gbjgtWTSkV4F83jFI</property>
+    <property name="acs-api-key-development" type="string">jaCgaXfAx4zgMTZQKZFALK2i7lNYBZXI</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">vXUs5uD2bFNCB1eKtc</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">eA7HQvkK1owM3XeFqZrpMZWwL3PURYcs</property>
+    <property name="acs-oauth-key-production" type="string">IsTuhCgAc2Gr4NjI16mE6dbAqFsSE8B4</property>
+    <property name="acs-api-key-production" type="string">qQPmfEf8RfujDlRHs8PjgZ3viMedM8PI</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">jogWXDz2M290RJJ7vb</property>
+    <property name="appc-org-id" type="string">100055687</property>
+    <property name="appc-creator-user-id" type="string">277d1059-e578-4b1c-96ca-2e493bcd661d</property>
+</ti:app>
