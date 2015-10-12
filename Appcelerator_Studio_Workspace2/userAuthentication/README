@@ -1,7 +1,6 @@
 Este es el proyecto de Autenticación de Usuarios realizado como método explicativo.
 
-Primero tienen que realizar el sql de la BD en PHPMyAdmin y después crean un usuario y en el campo de password
-le dan en el tipo de dato MD5 para generar la encriptación del password.
+Primero tienen que realizar el sql de la BD en PHPMyAdmin y después crean un usuario y en el campo de password le dan en el tipo de dato MD5 para generar la encriptación del password.
 
 SQL:
 
@@ -22,8 +21,7 @@ Lo cambian en   login.js - account.js
 //Se pone el archivo post_register.php en el htdocs del XAMPP
 loginReq.open("POST","http://192.168.1.175/post_auth.php"); ------ Esto es lo que cambian por la IP suya
 
-Les adjunto los dos archivos PHP en los cuales se generan las consultas y la conexión a la base de datos, están 
-documentados y sólo cambian el servidos pero si es local dejan el localhost, el usuario y el password, más abajo
+Les adjunto los dos archivos PHP en los cuales se generan las consultas y la conexión a la base de datos, están documentados y sólo cambian el servidos pero si es local dejan el localhost, el usuario y el password, más abajo
 cambian el nombre de su BD...
 
 Un saludo.
@@ -31,19 +29,5 @@ Un saludo.
 Elaborado para WebDev
 
 http://www.webdev.260mb.net
-        
-        
 
-
-
-----------------------------------
-Stuff our legal folk make us say:
-
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2008-2013 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
 
