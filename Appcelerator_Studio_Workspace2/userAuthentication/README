@@ -1,6 +1,6 @@
 Este es el proyecto de Autenticación de Usuarios realizado como método explicativo.
 
-Primero tienen que realizar el sql de la BD en PHPMyAdmin y después crean un usuario y en el campo
+Primero tienen que realizar el sql de la BD en PHPMyAdmin y después crean un usuario y en el campo de password
 le dan en el tipo de dato MD5 para generar la encriptación del password.
 
 SQL:
@@ -14,11 +14,23 @@ CREATE TABLE `users` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
-Después realizan los cambios en las funciones para crear el HTTPClient:
+Después realizan los cambios en las funciones para crear el HTTPClient (Este es el pedazo de código del proyecto):
+
+Lo cambian en   login.js - account.js
 
 //Se pone la IP del equipo en el cual se esta realizando el servidor apache
-        //Se pone el archivo post_register.php en el htdocs del XAMPP
-        loginReq.open("POST","http://192.168.1.175/post_auth.php"); ------ Esto es lo que cambian por la IP suya
+//Se pone el archivo post_register.php en el htdocs del XAMPP
+loginReq.open("POST","http://192.168.1.175/post_auth.php"); ------ Esto es lo que cambian por la IP suya
+
+Les adjunto los dos archivos PHP en los cuales se generan las consultas y la conexión a la base de datos, están 
+documentados y sólo cambian el servidos pero si es local dejan el localhost, el usuario y el password, más abajo
+cambian el nombre de su BD...
+
+Un saludo.
+
+Elaborado para WebDev
+
+http://www.webdev.260mb.net
         
         
 
