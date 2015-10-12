@@ -1,0 +1,7 @@
+"/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/gen/android/support/v7/appcompat/R.java"
+"/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/gen/com/user_authentication/AssetCryptImpl.java"
+"/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/gen/com/user_authentication/R.java"
+"/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/gen/com/user_authentication/UserauthenticationActivity.java"
+"/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/gen/com/user_authentication/UserauthenticationAppInfo.java"
+"/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/gen/com/user_authentication/UserauthenticationApplication.java"
+"/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/android/gen/ti/modules/titanium/ui/R.java"

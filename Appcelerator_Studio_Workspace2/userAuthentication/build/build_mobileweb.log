@@ -1,0 +1,470 @@
+
+10/11/2015, 1:59:45 PM
+
+Operating System
+  Name                        = Linux Mint 17.2 Rafaela
+  Version                     = 17.2
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 16711438336
+
+Node.js
+  Node.js Version             = 4.0.0
+  npm Version                 = 2.14.2
+
+Titanium CLI
+  CLI Version                 = 5.0.4
+
+Titanium SDK
+  SDK Version                 = 5.0.1.GA
+  SDK Path                    = /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA
+  Target Platform             = mobileweb
+
+Command
+  /usr/local/bin/node /home/fatone/.appcelerator/install/5.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform mobileweb --log-level trace --sdk 5.0.1.GA --project-dir /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication --deploy-type development --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 44744 --plugin-paths /home/fatone/.appcelerator/install/5.0.2/package/node_modules --config-file /tmp/build-1444589981643.json --no-banner
+
+[DEBUG]  Detecting modules in /home/fatone/.titanium/modules
+[DEBUG]  Detected android module: facebook 4.0.5 @ /home/fatone/.titanium/modules/android/facebook/4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.4.0 @ /home/fatone/.titanium/modules/android/ti.cloudpush/3.4.0
+[DEBUG]  Detected android module: ti.map 2.3.3 @ /home/fatone/.titanium/modules/android/ti.map/2.3.3
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /home/fatone/.titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.9 platform=commonjs deploy-type=development path=/home/fatone/.titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[INFO]   Compiling "development" build
+[INFO]   Reading Titanium Mobile Web package.json file
+[INFO]   Validating theme
+[DEBUG]  Using default theme
+[TRACE]  offline build file /tmp/build-8b0ae9c699c224aa3f0878ad97c5764969964174.json
+[TRACE]  online 1
+[TRACE]  last build was 10593.92 sec ago, need a re-verify and re-build
+[TRACE]  sending request {"json":{"username":"jehinerr@gmail.com","session":"ad0d2a842b2b82e759b708a40bd887dc0180f35a iIoHKtYJN1aSH/9ibkGCRqV2msuiadaYWqX19dOIr2Fd4vOHq3xc6yd45Ozm388fhecl/4HqjQrghQrN93xWUb6fb5WuoVSZI+JECSMbs03MfPV2j0la0eMe9YhmZHTZqMP4dzHSQTdM39+IMYClHKNbdKzi/vAQxRRQ0H+6buFPh6ECAVuIwKN1MclRI7M2j3YsJyAP0St1XWGg3K34eLSd3txS1C+MVWAhJMce7xivF0Uxof99Ma41lOArz6Op5GwDOWgSXy895L2i4m8+7S/Uo/DlBissJVcWDW81tvFY3QMyIEmEG9KaSs+Sr1WqpxcPiVlR03XL/AG+pR3Y95kfEgkeFH6FAjAoB1rgXUJALEo+squ8yXf7hQpGQju6i4Gnx5mw0OtHUc63HRzRKZ3bhON/NB9HbZKFxFLc5NDcRmQGzGQ2/lbXyRYynOQeLDfUDow/d7W+7cJPQMKolm7E/k94r3uo7ju+6p9t/3EjYfnThJQqkNHUXLbD8vGQCAjhPKSe2dQwgu0NFlWMtIfsfmQI/MK9mcIq7wzDlwMs2VJS1wwvNRPAiAJFIjRCdSyqjdqWeasfnyYEv1nl2CBzp/sndlu18ApYL8RDJJSD41QKhbL3b65LDLToW+C+YGVNETrcg/6p2Kz+aRrvHk34MWFNZWq9HVH6hwOyp68C7UcSk7n/ygLJhatyLGGYH+1NnpXplBtheCW/3XlyeGEb2YAqD3VzrTssyii5BOFa+uiPPQLE3JgHfEYCnZJPq9NTLiy1Ul+6k/kV+Ovr6CD4fmCHNF55uZPWAAdCviU=","ipaddress":"192.168.1.175","fingerprint":"da39a3ee5e6b4b0d3255bfef95601890afd80709","fingerprint_description":"Linux with Mac Address:","guid":"d119a9a7-94d2-4ff5-9444-7bf2e14c32f4","appid":"com.user_authentication","name":"userAuthentication","org_id":100055687,"deploytype":"development","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.user_authentication</id>\n  <name>userAuthentication</name>\n  <version>1.0</version>\n  <publisher>fatone</publisher>\n  <url>http://user_authenticacion.com</url>\n  <description>undefined</description>\n  <copyright>2015 by fatone</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>d119a9a7-94d2-4ff5-9444-7bf2e14c32f4</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <ios>\n    <plist>\n      <dict>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\"/>\n    <mobileweb>\n      <precache/>\n      <splash>\n        <enabled>true</enabled>\n        <inline-css-images>true</inline-css-images>\n      </splash>\n      <theme>default</theme>\n    </mobileweb>\n    <modules>\n      <module platform=\"commonjs\">ti.cloud</module>\n    </modules>\n    <deployment-targets>\n      <target device=\"iphone\">false</target>\n      <target device=\"ipad\">false</target>\n      <target device=\"android\">true</target>\n      <target device=\"mobileweb\">true</target>\n      <target device=\"windows\">false</target>\n    </deployment-targets>\n    <sdk-version>5.0.1.GA</sdk-version>\n    <property name=\"appc-app-id\" type=\"string\">5606ac1d1a0839ef083c09ff</property>\n    <property name=\"acs-authbase-url-development\" type=\"string\">***</property>\n    <property name=\"acs-base-url-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-development\" type=\"string\">***</property>\n    <property name=\"acs-api-key-development\" type=\"string\">***</property>\n    <property name=\"acs-username-development\" type=\"string\">***</property>\n    <property name=\"acs-password-development\" type=\"string\">***</property>\n    <property name=\"acs-authbase-url-production\" type=\"string\">***</property>\n    <property name=\"acs-base-url-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-production\" type=\"string\">***</property>\n    <property name=\"acs-api-key-production\" type=\"string\">***</property>\n    <property name=\"acs-username-production\" type=\"string\">***</property>\n    <property name=\"acs-password-production\" type=\"string\">***</property>\n    <property name=\"appc-org-id\" type=\"string\">100055687</property>\n    <property name=\"appc-creator-user-id\" type=\"string\">277d1059-e578-4b1c-96ca-2e493bcd661d</property>\n  </ti:app>","modules":[{"id":"ti.cloud","platform":["commonjs"],"deployType":["development"],"modulePath":"/home/fatone/.titanium/modules/commonjs/ti.cloud/3.2.9","version":"3.2.9","manifest":{"version":"3.2.9","description":"Appcelerator Cloud Services","author":"Dawson Toth, Jeff English, Jon Alter, Paul Lv, Michael Goff, and Pedro Enrique","license":"Appcelerator Commercial License","copyright":"Copyright (c) 2011-2014 by Appcelerator,  Inc.","name":"ti.cloud","moduleid":"ti.cloud","guid":"1056b5d2-2bb5-4339-b930-297637aeec4e","platform":"commonjs","minsdk":"2.1.0"}}]},"gzip":true,"followAllRedirects":true,"url":"https://security.appcelerator.com/build-verify"}
+[TRACE]  result from /build-verify=> {"key":"/d5mLnT4D/rUCOuOAyc+XQ==","pepper":"Xj5d56rjGXL3U5hWwiH/zA==","hmacKey":"rJyHrpzf2WB08bkIt/nnzg==","o":100055687,"u":"277d1059-e578-4b1c-96ca-2e493bcd661d","p":"free","i":"561ab1a3166078b49225c7e9","success":true}, err=null
+[INFO]   JavaScript files need to be encrypted
+[DEBUG]  Deleting existing build directory
+[INFO]   Copying project files
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/API.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/API.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Accelerometer.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Accelerometer.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Analytics.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Analytics.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/App/Properties.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/App/Properties.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/App.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/App.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Blob.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Blob.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/BlobStream.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/BlobStream.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Buffer.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Buffer.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/BufferStream.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/BufferStream.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Codec.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Codec.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Facebook/LoginButton.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Facebook/LoginButton.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Facebook.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Facebook.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Filesystem/File.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Filesystem/File.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Filesystem/FileStream.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Filesystem/FileStream.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Filesystem.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Filesystem.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Geolocation.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Geolocation.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Gesture.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Gesture.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/IOStream.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/IOStream.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Locale.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Locale.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Map/Annotation.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Map/Annotation.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Map/View.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Map/View.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Map.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Map.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Media/AudioPlayer.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Media/AudioPlayer.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Media/Sound.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Media/Sound.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Media/VideoPlayer.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Media/VideoPlayer.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Media.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Media.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Network/HTTPClient.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Network/HTTPClient.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Network.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Network.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Platform/DisplayCaps.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Platform/DisplayCaps.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Platform.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Platform.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/2DMatrix.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/2DMatrix.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/ActivityIndicator.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/ActivityIndicator.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/ActivityIndicatorStyle.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/ActivityIndicatorStyle.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/AlertDialog.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/AlertDialog.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/Animation.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Animation.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/Button.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Button.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/Clipboard.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Clipboard.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/EmailDialog.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/EmailDialog.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/ImageView.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/ImageView.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/Label.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Label.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/MobileWeb/NavigationGroup.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/MobileWeb/NavigationGroup.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/MobileWeb/TableViewSeparatorStyle.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/MobileWeb/TableViewSeparatorStyle.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/MobileWeb.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/MobileWeb.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/OptionDialog.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/OptionDialog.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/Picker.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Picker.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/PickerColumn.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/PickerColumn.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/PickerRow.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/PickerRow.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/ProgressBar.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/ProgressBar.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/ScrollView.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/ScrollView.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/ScrollableView.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/ScrollableView.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/Slider.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Slider.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/Switch.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Switch.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/Tab.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Tab.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/TabGroup.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/TabGroup.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/TableView.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/TableView.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/TableViewRow.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/TableViewRow.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/TableViewSection.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/TableViewSection.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/TextArea.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/TextArea.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/TextField.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/TextField.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/View.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/View.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/WebView.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/WebView.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI/Window.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Window.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/UI.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Utils.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Utils.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/XML.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/XML.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/Yahoo.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Yahoo.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Evented.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Evented.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Filesystem/Local.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Filesystem/Local.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Gestures/DoubleTap.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/DoubleTap.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Gestures/Dragging.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/Dragging.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Gestures/LongPress.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/LongPress.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Gestures/Pinch.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/Pinch.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Gestures/SingleTap.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/SingleTap.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Gestures/Swipe.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/Swipe.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Gestures/TouchCancel.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/TouchCancel.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Gestures/TouchEnd.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/TouchEnd.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Gestures/TouchMove.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/TouchMove.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Gestures/TouchStart.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/TouchStart.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Gestures/TwoFingerTap.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/TwoFingerTap.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Layouts/Base.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Layouts/Base.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Layouts/Composite.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Layouts/Composite.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Layouts/ConstrainingHorizontal.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Layouts/ConstrainingHorizontal.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Layouts/ConstrainingVertical.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Layouts/ConstrainingVertical.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Layouts/Horizontal.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Layouts/Horizontal.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Layouts/Vertical.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Layouts/Vertical.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Layouts.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Layouts.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/Map/Google.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Map/Google.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/UI/Element.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/UI/Element.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/UI/FontWidget.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/UI/FontWidget.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/UI/KineticScrollView.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/UI/KineticScrollView.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/UI/SuperView.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/UI/SuperView.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/UI/TextBox.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/UI/TextBox.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/UI/WebViewBridge.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/UI/WebViewBridge.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/UI/Widget.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/UI/Widget.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/UI/blank.html => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/UI/blank.html
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/analytics.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/analytics.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/browser.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/browser.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/colors.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/colors.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/css.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/css.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/declare.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/declare.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/dom.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/dom.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/encoding.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/encoding.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/event.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/event.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/has.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/has.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/image.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/image.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/include.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/include.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/lang.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/lang.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/ready.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/ready.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/string.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/string.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/style.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/style.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_/text.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/text.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti/_.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/Ti.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti.js
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/dependencies.json => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/dependencies.json
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/titanium/package.json => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/package.json
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/themes/common.css => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/themes/common.css
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/themes/default/Facebook/login.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/themes/default/Facebook/login.png
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/themes/default/Facebook/loginPressed.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/themes/default/Facebook/loginPressed.png
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/themes/default/Facebook/loginWide.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/themes/default/Facebook/loginWide.png
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/themes/default/Facebook/loginWidePressed.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/themes/default/Facebook/loginWidePressed.png
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/themes/default/Facebook/logout.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/themes/default/Facebook/logout.png
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/themes/default/Facebook/logoutPressed.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/themes/default/Facebook/logoutPressed.png
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/themes/default/Map/location.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/themes/default/Map/location.png
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/themes/default/Map/marker_green.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/themes/default/Map/marker_green.png
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/themes/default/Map/marker_purple.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/themes/default/Map/marker_purple.png
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/themes/default/Map/marker_red.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/themes/default/Map/marker_red.png
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/themes/default/UI/TableViewRow/check.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/themes/default/UI/TableViewRow/check.png
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/themes/default/UI/TableViewRow/child.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/themes/default/UI/TableViewRow/child.png
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/themes/default/UI/TableViewRow/detail.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/themes/default/UI/TableViewRow/detail.png
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/themes/default/UI/TableViewRow/detailActive.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/themes/default/UI/TableViewRow/detailActive.png
+[DEBUG]  Copying /home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/mobileweb/themes/default/default.css => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/themes/default/default.css
+[DEBUG]  Copying /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/Resources/KS_nav_ui.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/KS_nav_ui.png
+[DEBUG]  Copying /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/Resources/KS_nav_views.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/KS_nav_views.png
+[DEBUG]  Copying /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/Resources/app.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/app.js
+[DEBUG]  Copying /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/Resources/main_windows/account.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/main_windows/account.js
+[DEBUG]  Copying /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/Resources/main_windows/login.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/main_windows/login.js
+[DEBUG]  Copying /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/Resources/main_windows/main.js => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/main_windows/main.js
+[DEBUG]  Copying /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/Resources/mobileweb/appicon.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/appicon.png
+[DEBUG]  Copying /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/Resources/mobileweb/apple_startup_images/Default.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/Default.png
+[DEBUG]  Copying /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/Resources/mobileweb/apple_startup_images/Default-Portrait.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/Default-Portrait.png
+[DEBUG]  Copying /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/Resources/mobileweb/apple_startup_images/Default-Landscape.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/Default-Landscape.png
+[INFO]   Finding all Titanium API dependencies
+[INFO]   Creating favicon and Apple touch icons
+[DEBUG]  Copying /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/Resources/mobileweb/appicon.png => /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/appicon.png
+[TRACE]  Resizing images: java -jar "/home/fatone/.titanium/mobilesdk/linux/5.0.1.GA/node_modules/node-appc/tools/resizer/resizer.jar" "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/Resources/mobileweb/appicon.png" "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/favicon.png" 16 16 "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/apple-touch-icon-precomposed.png" 57 57 "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/apple-touch-icon-57x57-precomposed.png" 57 57 "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/apple-touch-icon-72x72-precomposed.png" 72 72 "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/apple-touch-icon-114x114-precomposed.png" 114 114 "/home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/appicon144.png" 144 144
+[INFO]   Finding all required modules to be cached
+[INFO]   Finding all precached modules
+[INFO]   Finding all precached images
+[INFO]   Bundling Titanium Mobile Module ti.cloud
+[INFO]   Finding all distinct cached modules
+[INFO]   Found 113 dependencies, 2 packages, 113 modules
+[INFO]   Assembling titanium.js
+[INFO]   Processing splash screen
+[INFO]   Assembling titanium.css
+[INFO]   Analyzing JavaScript
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/app.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/main_windows/account.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/main_windows/login.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/main_windows/main.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/app.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/helper/Utils.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/helper/WindowManager.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/accessControlLists/checkUser.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/accessControlLists/create.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/accessControlLists/selectUsers.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/accessControlLists/show.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/accessControlLists/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/accessControlLists/updateUsers.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/chats/query.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/chats/selectUsersForGroup.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/chats/showChatGroup.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/chats/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/checkins/create.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/checkins/query.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/checkins/remove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/checkins/show.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/checkins/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/clients/geolocateMe.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/clients/geolocateParticular.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/clients/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/customObjects/create.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/customObjects/query.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/customObjects/remove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/customObjects/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/customObjects/update.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/emails/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/events/create.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/events/query.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/events/queryOccurrences.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/events/remove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/events/search.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/events/searchOccurrences.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/events/show.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/events/showOccurrences.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/events/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/events/update.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/files/create.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/files/query.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/files/remove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/files/show.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/files/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/files/update.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/friends/add.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/friends/approve.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/friends/remove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/friends/search.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/friends/searchUsers.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/friends/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/genericSendRequest.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/geoFences/create.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/geoFences/query.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/geoFences/remove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/geoFences/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/geoFences/update.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/keyValues/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/likes/create.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/likes/remove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/likes/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/messages/create.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/messages/remove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/messages/removeThread.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/messages/reply.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/messages/selectUsers.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/messages/show.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/messages/showInbox.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/messages/showSent.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/messages/showThreadMessages.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/messages/showThreads.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/messages/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/photoCollections/create.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/photoCollections/remove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/photoCollections/search.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/photoCollections/show.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/photoCollections/showPhotos.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/photoCollections/showSubcollections.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/photoCollections/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/photoCollections/update.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/photos/create.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/photos/query.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/photos/remove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/photos/search.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/photos/show.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/photos/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/photos/update.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/places/create.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/places/query.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/places/remove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/places/search.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/places/show.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/places/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/places/update.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/posts/create.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/posts/query.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/posts/remove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/posts/show.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/posts/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/posts/update.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushNotifications/notify.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushNotifications/notifyTokens.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushNotifications/pushManager.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushNotifications/query.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushNotifications/queryChannels.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushNotifications/resetBadge.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushNotifications/setBadge.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushNotifications/settings.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushNotifications/showChannels.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushNotifications/subscribe.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushNotifications/subscribeToken.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushNotifications/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushNotifications/unsubscribe.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushNotifications/unsubscribeToken.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushNotifications/updateSubscription.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushSchedules/create.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushSchedules/query.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushSchedules/remove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/pushSchedules/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/reviews/create.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/reviews/query.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/reviews/remove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/reviews/show.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/reviews/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/reviews/update.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/social/externalLink.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/social/externalLogin.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/social/externalUnlink.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/social/searchFacebookFriends.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/social/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/status/create.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/status/query.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/status/remove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/status/search.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/status/show.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/status/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/status/update.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/users/create.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/users/login.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/users/loginStatus.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/users/logout.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/users/query.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/users/remove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/users/requestResetPassword.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/users/resendConfirmation.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/users/search.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/users/show.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/users/showMe.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/users/table.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/example/windows/users/update.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/modules/ti.cloud/ti.cloud.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/API.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Accelerometer.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Analytics.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/App/Properties.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/App.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Blob.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/BlobStream.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Buffer.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/BufferStream.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Codec.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Facebook/LoginButton.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Facebook.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Filesystem/File.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Filesystem/FileStream.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Filesystem.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Geolocation.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Gesture.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/IOStream.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Locale.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Map/Annotation.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Map/View.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Map.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Media/AudioPlayer.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Media/Sound.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Media/VideoPlayer.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Media.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Network/HTTPClient.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Network.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Platform/DisplayCaps.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Platform.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/2DMatrix.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/ActivityIndicator.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/ActivityIndicatorStyle.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/AlertDialog.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Animation.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Button.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Clipboard.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/EmailDialog.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/ImageView.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Label.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/MobileWeb/NavigationGroup.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/MobileWeb/TableViewSeparatorStyle.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/MobileWeb.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/OptionDialog.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Picker.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/PickerColumn.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/PickerRow.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/ProgressBar.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/ScrollView.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/ScrollableView.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Slider.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Switch.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Tab.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/TabGroup.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/TableView.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/TableViewRow.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/TableViewSection.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/TextArea.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/TextField.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/View.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/WebView.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI/Window.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/UI.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Utils.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/XML.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/Yahoo.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Evented.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Filesystem/Local.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/DoubleTap.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/Dragging.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/LongPress.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/Pinch.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/SingleTap.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/Swipe.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/TouchCancel.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/TouchEnd.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/TouchMove.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/TouchStart.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Gestures/TwoFingerTap.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Layouts/Base.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Layouts/Composite.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Layouts/ConstrainingHorizontal.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Layouts/ConstrainingVertical.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Layouts/Horizontal.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Layouts/Vertical.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Layouts.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/Map/Google.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/UI/Element.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/UI/FontWidget.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/UI/KineticScrollView.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/UI/SuperView.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/UI/TextBox.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/UI/WebViewBridge.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/UI/Widget.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/analytics.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/browser.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/colors.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/css.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/declare.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/dom.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/encoding.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/event.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/has.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/image.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/include.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/lang.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/ready.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/string.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/style.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_/text.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti/_.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium/Ti.js
+[DEBUG]  Analyzing /home/fatone/Appcelerator_Studio_Workspace2/userAuthentication/build/mobileweb/titanium.js
+[INFO]   Creating the filesystem registry
+[INFO]   Creating the index.html
+[INFO]   Project built successfully in 8s 514ms
