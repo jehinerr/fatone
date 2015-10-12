@@ -45,7 +45,7 @@ loginBtn.addEventListener('click',function(e)
     {
     	//Se pone la IP del equipo en el cual se esta realizando el servidor apache
         //Se pone el archivo post_register.php en el htdocs del XAMPP
-        loginReq.open("POST","http://192.168.1.175/post_auth.php");
+        loginReq.open("POST","http://192.168.137.100/post_auth.php");
         
         var params = {
             username: username.value,
@@ -55,7 +55,7 @@ loginBtn.addEventListener('click',function(e)
     }
     else
     {
-        alert("Usuario/Contraseña son necesarios)");
+        alert("Usuario/Contraseña son necesarios");
     }
 });
 

@@ -159,7 +159,7 @@ createBtn.addEventListener('click',function(e)
                 createBtn.opacity = 0.3;
                 //Se pone la IP del equipo en el cual se esta realizando el servidor apache
                 //Se pone el archivo post_register.php en el htdocs del XAMPP
-                createReq.open("POST","http://192.168.1.175/post_register.php");
+                createReq.open("POST","http://192.168.137.100/post_register.php");
                 var params = {
                     username: username.value,
                     password: Ti.Utils.md5HexDigest(password1.value),
